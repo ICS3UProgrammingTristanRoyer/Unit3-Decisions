@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\obj\Debug\GuessGameTristanR.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\obj\Debug\GuessGameTristanR.GuessGameForm.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\obj\Debug\GuessGameTristanR.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\obj\Debug\GuessGameTristanR.csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\bin\Debug\GuessGameTristanR.exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\bin\Debug\GuessGameTristanR.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\bin\Debug\GuessGameTristanR.pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\obj\Debug\GuessGameTristanR.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Royer, Tristan (s450073)\Unit 3 (Decisions)\GuessGameTristanR\GuessGameTristanR\obj\Debug\GuessGameTristanR.pdb
