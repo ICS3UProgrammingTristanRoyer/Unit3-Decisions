@@ -10,11 +10,34 @@ using System.Windows.Forms;
 
 namespace RockPaperScissorsTristanR
 {
-	public partial class Form1 : Form
+	public partial class RockPaperScissorsForm : Form
 	{
-		public Form1()
+
+		public RockPaperScissorsForm()
 		{
+			const int ROCK == 1;
+			const int PAPER == 2;
+			const int SCISSORS == 2;
+
+
+
 			InitializeComponent();
+		}
+
+		private void groupBox1_Enter(object sender, EventArgs e)
+		{
+
+
+		}
+
+		private void groupBox1_Enter_1(object sender, EventArgs e)
+		{
+
+		}
+
+		private void radioButton2_CheckedChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
