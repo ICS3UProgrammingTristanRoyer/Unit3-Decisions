@@ -1,6 +1,6 @@
 ﻿namespace GuessGameTristanR
 {
-	partial class GuessGameForm
+	partial class frmGuessGame
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -65,7 +65,7 @@
 			// lblRealAnswer
 			// 
 			this.lblRealAnswer.AutoSize = true;
-			this.lblRealAnswer.Location = new System.Drawing.Point(194, 96);
+			this.lblRealAnswer.Location = new System.Drawing.Point(121, 96);
 			this.lblRealAnswer.Name = "lblRealAnswer";
 			this.lblRealAnswer.Size = new System.Drawing.Size(13, 13);
 			this.lblRealAnswer.TabIndex = 3;
@@ -73,14 +73,14 @@
 			// 
 			// picShape
 			// 
-			this.picShape.Image = global::GuessGameTristanR.Properties.Resources.checkmark;
-			this.picShape.Location = new System.Drawing.Point(172, 156);
+			this.picShape.Location = new System.Drawing.Point(104, 120);
 			this.picShape.Name = "picShape";
-			this.picShape.Size = new System.Drawing.Size(100, 51);
+			this.picShape.Size = new System.Drawing.Size(168, 129);
+			this.picShape.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.picShape.TabIndex = 4;
 			this.picShape.TabStop = false;
 			// 
-			// GuessGameForm
+			// frmGuessGame
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,8 +90,9 @@
 			this.Controls.Add(this.btnCheck);
 			this.Controls.Add(this.lblQuestion);
 			this.Controls.Add(this.txtAnswer);
-			this.Name = "GuessGameForm";
-			this.Text = "Form1";
+			this.Name = "frmGuessGame";
+			this.Text = "GuessGame";
+			this.Load += new System.EventHandler(this.GuessGameForm_Load);
 			((System.ComponentModel.ISupportInitialize)(this.picShape)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
