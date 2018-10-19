@@ -149,13 +149,11 @@
 			// 
 			// lblWinner
 			// 
-			this.lblWinner.AutoSize = true;
-			this.lblWinner.Location = new System.Drawing.Point(12, 231);
+			this.lblWinner.Location = new System.Drawing.Point(9, 231);
 			this.lblWinner.Name = "lblWinner";
-			this.lblWinner.Size = new System.Drawing.Size(13, 13);
-			this.lblWinner.TabIndex = 2;
+			this.lblWinner.Size = new System.Drawing.Size(100, 23);
+			this.lblWinner.TabIndex = 0;
 			this.lblWinner.Text = "--";
-			this.lblWinner.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// RockPaperScissorsForm
 			// 
