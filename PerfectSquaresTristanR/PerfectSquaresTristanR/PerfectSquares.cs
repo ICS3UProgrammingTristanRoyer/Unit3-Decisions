@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace PerfectSquaresTristanR
 {
-	static class Program
+	static class PerfectSquares
 	{
 		/// <summary>
 		/// The main entry point for the application.
