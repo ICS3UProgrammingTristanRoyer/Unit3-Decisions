@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Tristan Royer
+ * Created on: Day-Month-Year
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day # - Name of Program
+ * This program...
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
