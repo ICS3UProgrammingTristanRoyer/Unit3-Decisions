@@ -83,7 +83,12 @@ namespace WalkingManTristanR
 					this.picWalker.Image = Properties.Resources.walk10;
 				}
 
-			//refresh the form.This MUST be done,
+				picFrameCounter = picFrameCounter + 1;
+
+				//refresh the form.This MUST be done
+				this.Refresh();
+
+				Thread.Sleep(100);
 			}
 		}
 	}

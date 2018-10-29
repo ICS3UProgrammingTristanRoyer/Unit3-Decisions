@@ -29,32 +29,25 @@
 		private void InitializeComponent()
 		{
 			this.lblQuestion = new System.Windows.Forms.Label();
-			this.txtAnswer = new System.Windows.Forms.TextBox();
 			this.lblDisplay = new System.Windows.Forms.Label();
 			this.btnCheck = new System.Windows.Forms.Button();
+			this.nudAnswer = new System.Windows.Forms.NumericUpDown();
+			((System.ComponentModel.ISupportInitialize)(this.nudAnswer)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// lblQuestion
 			// 
 			this.lblQuestion.AutoSize = true;
-			this.lblQuestion.Location = new System.Drawing.Point(2, 32);
+			this.lblQuestion.Location = new System.Drawing.Point(35, 9);
 			this.lblQuestion.Name = "lblQuestion";
 			this.lblQuestion.Size = new System.Drawing.Size(202, 13);
 			this.lblQuestion.TabIndex = 0;
 			this.lblQuestion.Text = "How many chocolate boxes did you sell?:";
 			// 
-			// txtAnswer
-			// 
-			this.txtAnswer.Location = new System.Drawing.Point(200, 29);
-			this.txtAnswer.Name = "txtAnswer";
-			this.txtAnswer.Size = new System.Drawing.Size(82, 20);
-			this.txtAnswer.TabIndex = 1;
-			this.txtAnswer.TextChanged += new System.EventHandler(this.txtAnswer_TextChanged);
-			// 
 			// lblDisplay
 			// 
 			this.lblDisplay.AutoSize = true;
-			this.lblDisplay.Location = new System.Drawing.Point(120, 133);
+			this.lblDisplay.Location = new System.Drawing.Point(95, 107);
 			this.lblDisplay.Name = "lblDisplay";
 			this.lblDisplay.Size = new System.Drawing.Size(13, 13);
 			this.lblDisplay.TabIndex = 2;
@@ -63,7 +56,7 @@
 			// 
 			// btnCheck
 			// 
-			this.btnCheck.Location = new System.Drawing.Point(98, 81);
+			this.btnCheck.Location = new System.Drawing.Point(75, 81);
 			this.btnCheck.Name = "btnCheck";
 			this.btnCheck.Size = new System.Drawing.Size(75, 23);
 			this.btnCheck.TabIndex = 3;
@@ -71,17 +64,30 @@
 			this.btnCheck.UseVisualStyleBackColor = true;
 			this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
 			// 
+			// nudAnswer
+			// 
+			this.nudAnswer.Location = new System.Drawing.Point(75, 48);
+			this.nudAnswer.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+			this.nudAnswer.Name = "nudAnswer";
+			this.nudAnswer.Size = new System.Drawing.Size(120, 20);
+			this.nudAnswer.TabIndex = 4;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.nudAnswer);
 			this.Controls.Add(this.btnCheck);
 			this.Controls.Add(this.lblDisplay);
-			this.Controls.Add(this.txtAnswer);
 			this.Controls.Add(this.lblQuestion);
 			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Text = "Chocolate Boxes";
+			((System.ComponentModel.ISupportInitialize)(this.nudAnswer)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -90,9 +96,9 @@
 		#endregion
 
 		private System.Windows.Forms.Label lblQuestion;
-		private System.Windows.Forms.TextBox txtAnswer;
 		private System.Windows.Forms.Label lblDisplay;
 		private System.Windows.Forms.Button btnCheck;
+		private System.Windows.Forms.NumericUpDown nudAnswer;
 	}
 }
 

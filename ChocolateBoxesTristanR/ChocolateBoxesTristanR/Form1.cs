@@ -37,6 +37,35 @@ namespace ChocolateBoxesTristanR
 
 		private void btnCheck_Click(object sender, EventArgs e)
 		{
+			//declare the variables
+			double numberOfBoxes;
+			numberOfBoxes = (Double)(nudAnswer.Value);
+			if (numberOfBoxes > 20)
+			{
+				lblDisplay.Text = "You have earned a prize";
+				lblDisplay.Show();
+			}
+
+			if (numberOfBoxes < 20)
+			{
+				if (numberOfBoxes < 10)
+				{
+					lblDisplay.Text = "Honourable mention";
+					lblDisplay.Show();
+
+				}
+				else if (numberOfBoxes > 10)
+				{
+					lblDisplay.Text = "You have earned a small prize";
+					lblDisplay.Show();
+
+				}
+			}
+			
+
+
+
+
 
 		}
 	}

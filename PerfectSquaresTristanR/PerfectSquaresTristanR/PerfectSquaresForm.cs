@@ -27,19 +27,42 @@ namespace PerfectSquaresTristanR
 			//declare local variables
 			int endingValue = 6;
 			int value;
-			Double squareRootAsDouble;
+			double squareRootAsDouble;
 			int squareRootAsInteger;
 
 			// set the initial values
 			value = 1;
 
+
 			//clear all the items from the list box
 			this.PerfectSquares.Items.Clear();
 
 			// get the user's end value selection from the number up-down box
-			endingValue = Convert.ToInt32(this.nudValue.Value);
+			endingValue = Convert.ToInt32(nudValue.Value);
+
 
 			// continue stating any perfect squares between the minimum value and the user's selected end value
+			while (value <= endingValue)
+			{
+				// take the square root of the value
+				squareRootAsDouble = Math.Sqrt(value);
+
+				//  convert the double to an integer
+				squareRootAsInteger = Convert.ToInt32(squareRootAsDouble);
+
+				// the only way for both the decimal and the integer to be equal us if the value was a perfect square
+				if (squareRootAsInteger == squareRootAsDouble)
+				{
+					this.PerfectSquares.Items.Add(value + " is a perfect square");
+					//this.lstPerfectSquares.setSelected(numberOfPerfectSquares);
+
+					this.Refresh();
+				}
+				value = value + 1;
+
+			}
+
 		}
 	}
 }
+
