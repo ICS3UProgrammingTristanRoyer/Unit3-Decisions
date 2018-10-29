@@ -84,7 +84,7 @@
 			this.Controls.Add(this.nudValue);
 			this.Controls.Add(this.btnStart);
 			this.Name = "frmPerfectSquares";
-			this.Text = "Form1";
+			this.Text = "PerfectSquares";
 			((System.ComponentModel.ISupportInitialize)(this.nudValue)).EndInit();
 			this.ResumeLayout(false);
 
