@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Tristan Royer
+ * Created on: Day-Month-Year
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #20 - Factorial Do While
+ * This program displays a progress bar periodically increasing
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

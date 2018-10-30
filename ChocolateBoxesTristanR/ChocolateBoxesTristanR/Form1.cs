@@ -1,9 +1,9 @@
 ﻿/*
- * Created by: First Last
- * Created on: Day-Month-Year
+ * Created by: Tristan Royer
+ * Created on: 18-10-18
  * Created for: ICS3U Programming
  * Daily Assignment – Day #19 - Chocolate Boxes
- * This program...
+ * This program checks how many boxes the user sold and displays the prize they obtained
 */
 using System;
 using System.Collections.Generic;

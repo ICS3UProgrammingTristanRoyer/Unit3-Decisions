@@ -68,7 +68,7 @@
 			this.Controls.Add(this.btnStart);
 			this.Controls.Add(this.prbProgressBar);
 			this.Name = "FactorialDoWhileForm";
-			this.Text = "Form1";
+			this.Text = "Factorial Do While";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

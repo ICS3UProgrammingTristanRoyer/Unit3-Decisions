@@ -51,7 +51,7 @@
     <Compile Include="WalkingManForm.Designer.cs">
       <DependentUpon>WalkingManForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="WalkingMan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="WalkingManForm.resx">
       <DependentUpon>WalkingManForm.cs</DependentUpon>

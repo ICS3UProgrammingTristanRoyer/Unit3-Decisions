@@ -88,7 +88,9 @@ namespace WalkingManTristanR
 				//refresh the form.This MUST be done
 				this.Refresh();
 
-				Thread.Sleep(100);
+				// cause the program to pause between each reset
+
+				Thread.Sleep(150);
 			}
 		}
 	}
