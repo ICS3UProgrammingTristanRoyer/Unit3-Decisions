@@ -63,7 +63,7 @@ namespace RockPaperScissorsTristanR
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-
+			// declare local variables
 
 			int uAnswer;
 			const int ROCK = 1;
@@ -73,6 +73,7 @@ namespace RockPaperScissorsTristanR
 			Random randomNumberGenerator = new Random();
 			int cAnswer = randomNumberGenerator.Next(MIN_VALUE, MAX_VALUE + 1);
 
+			// check what option the user chose and assign that to their answer.
 			if (radPlayerRock.Checked == true)
 			{
 				uAnswer = ROCK;
