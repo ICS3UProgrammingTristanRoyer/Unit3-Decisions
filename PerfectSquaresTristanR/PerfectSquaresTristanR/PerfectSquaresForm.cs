@@ -1,9 +1,9 @@
 ﻿/*
  * Created by: Tristan Royer
- * Created on: Day-Month-Year
+ * Created on: 24-10-18
  * Created for: ICS3U Programming
- * Daily Assignment – Day # - Name of Program
- * This program...
+ * Daily Assignment – Day #22 - Perfect Squares
+ * This program displays all the perfect squares within the given range
 */
 using System;
 using System.Collections.Generic;
