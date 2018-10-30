@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2019
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialDoWhileTristanR", "FactorialDoWhileTristanR\FactorialDoWhileTristanR.csproj", "{EF3AC62B-0F03-4CD5-80B1-A08B314E5182}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarTristanR", "FactorialDoWhileTristanR\ProgressBarTristanR.csproj", "{EF3AC62B-0F03-4CD5-80B1-A08B314E5182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -18,9 +18,9 @@ using System.Threading;
 
 namespace FactorialDoWhileTristanR
 {
-	public partial class FactorialDoWhileForm : Form
+	public partial class ProgressBarForm : Form
 	{
-		public FactorialDoWhileForm()
+		public ProgressBarForm()
 		{
 			InitializeComponent();
 		}

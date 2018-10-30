@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace FactorialDoWhileTristanR
 {
-	static class FactorialDoWhile
+	static class ProgressBar
 	{
 		/// <summary>
 		/// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace FactorialDoWhileTristanR
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new FactorialDoWhileForm());
+			Application.Run(new ProgressBarForm());
 		}
 	}
 }

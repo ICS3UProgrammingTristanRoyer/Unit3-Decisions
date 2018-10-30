@@ -1,6 +1,6 @@
 ﻿namespace FactorialDoWhileTristanR
 {
-	partial class FactorialDoWhileForm
+	partial class ProgressBarForm
 	{
 		/// <summary>
 		/// Required designer variable.

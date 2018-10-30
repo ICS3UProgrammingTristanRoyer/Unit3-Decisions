@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactorialDoWhileForm.cs">
+    <Compile Include="ProgressBarForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FactorialDoWhileForm.Designer.cs">
-      <DependentUpon>FactorialDoWhileForm.cs</DependentUpon>
+    <Compile Include="ProgressBarForm.Designer.cs">
+      <DependentUpon>ProgressBarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FactorialDoWhile.cs" />
+    <Compile Include="ProgressBar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FactorialDoWhileForm.resx">
-      <DependentUpon>FactorialDoWhileForm.cs</DependentUpon>
+    <EmbeddedResource Include="ProgressBarForm.resx">
+      <DependentUpon>ProgressBarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
