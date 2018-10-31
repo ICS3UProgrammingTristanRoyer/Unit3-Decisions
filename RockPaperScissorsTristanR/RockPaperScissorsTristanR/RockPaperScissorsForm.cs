@@ -91,6 +91,7 @@ namespace RockPaperScissorsTristanR
 			{
 				uAnswer = 0;
 			}
+			// checks what was the random choice of the computer and displays it to the user with the corresponding radio button. 
 			if (cAnswer == ROCK)
 			{
 				this.radComputerRock.Checked = true;
@@ -104,6 +105,7 @@ namespace RockPaperScissorsTristanR
 				this.radComputerScissors.Checked = true;
 			}
 
+			// compares the user answer to the computer answer and displays the winner of the game.
 			if (uAnswer == 1)
 			{
 				if (cAnswer == 1)

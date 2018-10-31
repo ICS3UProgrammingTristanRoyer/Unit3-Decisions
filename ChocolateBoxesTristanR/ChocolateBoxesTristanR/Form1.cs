@@ -22,6 +22,7 @@ namespace ChocolateBoxesTristanR
 		public Form1()
 		{
 			InitializeComponent();
+			// hides the label that displays the prize earned.
 			lblDisplay.Hide(); 
 		}
 
@@ -39,7 +40,9 @@ namespace ChocolateBoxesTristanR
 		{
 			//declare the variables
 			double numberOfBoxes;
+			// assign the value input by the user to the numberOfBoxes
 			numberOfBoxes = (Double)(nudAnswer.Value);
+			// displays " you have earned a prize" if the user input a value higher than 20.
 			if (numberOfBoxes > 20)
 			{
 				lblDisplay.Text = "You have earned a prize";
@@ -48,12 +51,14 @@ namespace ChocolateBoxesTristanR
 
 			if (numberOfBoxes < 20)
 			{
+				// displays "Honourable metion" if the user sold less than 10 boxes.
 				if (numberOfBoxes < 10)
 				{
 					lblDisplay.Text = "Honourable mention";
 					lblDisplay.Show();
 
 				}
+				// displays "you have earned a small prize" if the user sold less than 20 boxes but more than 10 boxes
 				else if (numberOfBoxes > 10)
 				{
 					lblDisplay.Text = "You have earned a small prize";
