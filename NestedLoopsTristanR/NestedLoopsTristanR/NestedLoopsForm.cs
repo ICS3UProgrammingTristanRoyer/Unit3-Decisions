@@ -25,6 +25,7 @@ namespace NestedLoopsTristanR
 			string firstLetter;
 			string secondLetter;
 			const int MAX_COUNTER = 90;
+			const int MAX_COUNTERv2 = 122;
 
 			//clear the list box
 			this.Alphabet.Items.Clear();
@@ -34,7 +35,7 @@ namespace NestedLoopsTristanR
 			{
 				firstLetter = Char.ConvertFromUtf32(capitalCounter);
 
-				for (smallCounter = 95; smallCounter <= MAX_COUNTER; smallCounter++)
+				for (smallCounter = 97; smallCounter <= MAX_COUNTERv2; smallCounter++)
 				{ //convert the value of the counter to unicode
 					secondLetter = Char.ConvertFromUtf32(smallCounter);
 					this.Alphabet.Items.Add(firstLetter + "->" + secondLetter);
