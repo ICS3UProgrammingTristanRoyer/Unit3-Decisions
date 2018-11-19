@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Tristan Royer
+ * Created on: Day-Month-Year
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #28 - Numbers Nested Loops
+ * This program uses nested loops to display all the letters of the alphabet in small and large case.
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
